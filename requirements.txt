@@ -1,0 +1,5 @@
+datetime
+intersight
+prettytable
+python-dotenv
+urllib3

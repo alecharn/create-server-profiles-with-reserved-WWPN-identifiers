@@ -1,0 +1,37 @@
+{
+  "organization": "demo",
+  "san_connectivity_policy": "SANConnectivity-demo_Policy",
+  "server_profile_template": "UCS-demo_SPT",
+  "server_profiles": [
+    {
+      "server_profile_name": "ServerProfileFromTemplate-demo-1",
+      "reservations": [
+        {
+          "vhba_name": "vhba0",
+          "wwpn_to_reserve": "20:00:00:25:B5:0A:00:01",
+          "wwpn_pool": "wwpn-pool-demo-a"
+        },
+        {
+          "vhba_name": "vhba1",
+          "wwpn_to_reserve": "20:00:00:25:B5:0B:00:01",
+          "wwpn_pool": "wwpn-pool-demo-b"
+        }
+      ]
+    },
+    {
+      "server_profile_name": "ServerProfileFromTemplate-demo-2",
+      "reservations": [
+        {
+          "vhba_name": "vhba0",
+          "wwpn_to_reserve": "20:00:00:25:B5:0A:00:02",
+          "wwpn_pool": "wwpn-pool-demo-a"
+        },
+        {
+          "vhba_name": "vhba1",
+          "wwpn_to_reserve": "20:00:00:25:B5:0B:00:02",
+          "wwpn_pool": "wwpn-pool-demo-b"
+        }
+      ]
+    }
+  ]
+}
